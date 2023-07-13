@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_grams_dev_wiki=self.webpackChunk_grams_dev_wiki||[]).push([[3357],{9100:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/ru/blog/tags/hello","allTagsPath":"/ru/blog/tags","count":2}')}}]);
