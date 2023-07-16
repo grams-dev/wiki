@@ -1,6 +1,4 @@
 import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 
 import Card from '@site/src/components/Card';
 
@@ -25,7 +23,7 @@ const CardList = [
         Create your first decentralized application (dApp) in 5 mins.
       </>
     ),
-    link: '/docs/develop/tutorials/dapps/create-grams-dapp'
+    link: '/docs/develop/get-started/create-dapp'
   },
   {
     title: 'Interact with Grams',
@@ -35,7 +33,7 @@ const CardList = [
         Explore how to integrate Grams into your application.
       </>
     ),
-    link: '/docs/develop/tutorials/sdk/interact-with-grams'
+    link: '/docs/develop/get-started/interact-with-grams'
   },
 ];
 
