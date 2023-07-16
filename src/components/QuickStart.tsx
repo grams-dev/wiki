@@ -25,7 +25,7 @@ const CardList = [
         Create your first decentralized application (dApp) in 5 mins.
       </>
     ),
-    link: '/docs/develop/tutorials/create-a-dapp'
+    link: '/docs/develop/tutorials/dapps/create-grams-dapp'
   },
   {
     title: 'Interact with Grams',
@@ -35,7 +35,7 @@ const CardList = [
         Explore how to integrate Grams into your application.
       </>
     ),
-    link: '/docs/develop/tutorials/interact-with-grams'
+    link: '/docs/develop/tutorials/sdk/interact-with-grams'
   },
 ];
 

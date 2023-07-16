@@ -11,28 +11,28 @@ const CardList = [
     title: 'Grams SDK',
     Svg: require('@site/static/img/libraries/sdk.svg').default,
     description: 'Simplify Grams integration with a powerful SDK for seamless interaction and development.',
-    link: '/docs/develop/libraries/grams-sdk'
+    link: '/docs/develop/libraries/sdk'
   },
   {
     title: 'Grams Subjects',
     Svg: require('@site/static/img/libraries/subject.svg').default,
     description: 'Compose and build subjects, the first decentralized subject-oriented programming framework.',
-    link: '/docs/develop/libraries/grams-subjects'
+    link: '/docs/develop/libraries/subjects'
   },
   {
     title: 'Grams dApps',
     Svg: require('@site/static/img/libraries/dapps.svg').default,
     description: 'Decentralized applications powered by the Grams network for secure and feature-rich user experiences.',
-    link: '/docs/develop/libraries/grams-dapps'
+    link: '/docs/develop/libraries/dapps'
   },
   {
     title: 'Grams Contracts',
     Svg: require('@site/static/img/libraries/contracts.svg').default,
     description: 'Unlock the potential of smart contracts for decentralized application development on Grams.',
-    link: '/docs/develop/libraries/grams-contracts'
+    link: '/docs/develop/libraries/contracts'
   },
   {
-    title: 'window.Grams',
+    title: 'window.grams',
     Svg: require('@site/static/img/libraries/window.svg').default,
     description: 'Integrate Grams into your applications using the window.Grams API.',
     link: '/docs/develop/libraries/window.grams'

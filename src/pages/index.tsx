@@ -6,8 +6,6 @@ import QuickStart from '@site/src/components/QuickStart';
 import Libraries from '@site/src/components/Libraries';
 import PlatformLibraries from '@site/src/components/PlatformLibraries';
 
-import styles from './index.module.css';
-
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (

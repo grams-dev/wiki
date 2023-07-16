@@ -11,19 +11,19 @@ const CardList = [
     title: 'Grams for Android',
     Svg: require('@site/static/img/libraries/android.svg').default,
     description: 'Harness the full potential of Grams in your Android applications.',
-    link: '/docs/develop/libraries/grams-android'
+    link: '/docs/develop/libraries/android'
   },
   {
     title: 'Grams for iOS',
     Svg: require('@site/static/img/libraries/ios.svg').default,
     description: 'Unlock the power of Grams in your iOS apps.',
-    link: '/docs/develop/libraries/grams-ios'
+    link: '/docs/develop/libraries/ios'
   },
   {
     title: 'Grams for Unity',
     Svg: require('@site/static/img/libraries/unity.svg').default,
     description: 'Create immersive Grams experiences in Unity.',
-    link: '/docs/develop/libraries/grams-unity'
+    link: '/docs/develop/libraries/unity'
   },
 ];
 
