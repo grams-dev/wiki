@@ -1,7 +1,7 @@
 {
   "name": "@grams.dev/wiki",
   "version": "0.0.1",
-  "description": "The official documentation for Grams, a decentralized platform that enables seamless integration of blockchain functionality into applications.",
+  "description": "The official documentation for Grams, a decentralized platform that enables seamless integration of blockchain into applications.",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
