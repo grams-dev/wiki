@@ -4,6 +4,7 @@
   "description": "The official documentation for Grams, a decentralized platform that enables seamless integration of blockchain into applications.",
   "private": true,
   "scripts": {
+    "setup": "npm install",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
