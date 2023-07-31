@@ -20,8 +20,8 @@
 }
 
 .itemSvg {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
 }
 
 .header {
@@ -39,4 +39,8 @@
     text-align: center;
     position: relative;
     overflow: hidden;
+}
+
+.pdSmall {
+    padding-bottom: 1rem;
 }

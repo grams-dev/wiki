@@ -9,24 +9,14 @@ const config = {
   title: 'Grams Wiki',
   tagline: 'The official documentation for Grams',
   favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
   url: 'https://wiki.grams.dev',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'grams-dev', // Usually your GitHub org/user name.
-  projectName: 'wiki', // Usually your repo name.
+  organizationName: 'grams-dev',
+  projectName: 'wiki',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -53,7 +43,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/social-card.jpg',
       navbar: {
         title: 'Wiki',
@@ -64,7 +53,7 @@ const config = {
         items: [
           { to: '/docs/use', label: 'Use Grams', position: 'left' },
           { to: '/docs/develop', label: 'Develop' },
-          { to: '/docs/learn', label: 'Learn' },
+          { to: '/docs/playground', label: 'Playground', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/community', label: 'Community', position: 'left' },
         ],
@@ -77,7 +66,7 @@ const config = {
             items: [
               { label: 'Use Grams', to: '/docs/use' },
               { label: 'Develop', to: '/docs/develop' },
-              { label: 'Learn', to: '/docs/learn' },
+              { label: 'Playground', to: '/docs/playground' },
             ],
           },
           {
@@ -111,7 +100,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Grams Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Grams.`,
       },
       prism: {
         theme: lightCodeTheme,
