@@ -33,7 +33,7 @@ const CardList = [
         Explore how to integrate Grams into your application.
       </>
     ),
-    link: '/docs/develop/get-started/interact-with-grams'
+    link: '/docs/playground'
   },
 ];
 
