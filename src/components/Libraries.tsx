@@ -39,8 +39,6 @@ const CardList = [
   },
 ];
 
-
-
 export default function Libraries() {
   return (
     <section className={styles.features}>

@@ -19,7 +19,16 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ar'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-US'
+      },
+      ar: {
+        htmlLang: 'ar-SA',
+        direction: 'rtl'
+      }
+    }
   },
 
   presets: [
@@ -56,6 +65,7 @@ const config = {
           { to: '/docs/playground', label: 'Playground', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/community', label: 'Community', position: 'left' },
+          { type: 'localeDropdown', position: 'right' }
         ],
       },
       footer: {

@@ -12,9 +12,6 @@ export default function Home(): JSX.Element {
     <Layout
       description={siteConfig.tagline}>
       <HomeBanner />
-      <div className="alert alert--primary" role="alert">
-        The alpha release is hosting a faucet that can fund any Grams wallet for free!
-      </div>
       <main>
         <QuickStart />
         <Libraries />

@@ -1,4 +1,5 @@
 import React from 'react';
+import Translate from '@docusaurus/Translate';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -9,13 +10,13 @@ export default function HomeBanner() {
   return (
     <header className={clsx('hero hero--primary', styles.homeBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title"><Translate>Grams Wiki</Translate></h1>
+        <p className="hero__subtitle"><Translate>The official documentation for Grams</Translate></p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/develop/get-started">
-            Start building 🚀
+            <Translate>Start building 🚀</Translate>
           </Link>
         </div>
       </div>

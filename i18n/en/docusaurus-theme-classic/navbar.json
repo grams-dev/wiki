@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Wiki",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Grams Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Use Grams": {
+    "message": "Use Grams",
+    "description": "Navbar item with label Use Grams"
+  },
+  "item.label.Develop": {
+    "message": "Develop",
+    "description": "Navbar item with label Develop"
+  },
+  "item.label.Playground": {
+    "message": "Playground",
+    "description": "Navbar item with label Playground"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Community": {
+    "message": "Community",
+    "description": "Navbar item with label Community"
+  }
+}

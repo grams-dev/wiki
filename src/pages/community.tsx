@@ -1,4 +1,5 @@
 import React from 'react';
+import Translate, { translate } from '@docusaurus/Translate';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
@@ -9,13 +10,21 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.homeBanner)}>
       <div className="container">
-        <h1 className="hero__title">Support Grams</h1>
-        <p className="hero__subtitle">Join different communities and interact with other Grams members</p>
+        <h1 className="hero__title">
+          <Translate>
+            Support Grams
+          </Translate>
+        </h1>
+        <p className="hero__subtitle">
+          <Translate>
+            Join different communities and interact with other Grams members
+          </Translate>
+        </p>
         <div>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-              Join Grams Foundation
+            <Translate>Join Grams Foundation</Translate>
           </Link>
         </div>
       </div>

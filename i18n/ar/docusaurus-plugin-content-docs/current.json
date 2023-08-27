@@ -1,0 +1,90 @@
+{
+  "version.label": {
+    "message": "التالي",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Introduction": {
+    "message": "مقدمة",
+    "description": "The label for category Introduction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "البدء",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Examples": {
+    "message": "أمثلة",
+    "description": "The label for category Examples in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Concepts": {
+    "message": "مفاهيم",
+    "description": "The label for category Concepts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials": {
+    "message": "دروس",
+    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Grams SDK": {
+    "message": "جرامز SDK",
+    "description": "The label for category Grams SDK in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.dApps": {
+    "message": "dApps",
+    "description": "The label for category dApps in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Subjects": {
+    "message": "مواضيع",
+    "description": "The label for category Subjects in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Libraries": {
+    "message": "مكتبات",
+    "description": "The label for category Libraries in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Reference": {
+    "message": "مراجع",
+    "description": "The label for category Reference in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Start Using Grams": {
+    "message": "ابدأ في استخدام جرامز",
+    "description": "The label for category Start Using Grams in sidebar tutorialSidebar"
+  },
+  "sidebar.developSidebar.category.Getting Started": {
+    "message": "البدء",
+    "description": "The label for category Getting Started in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Examples": {
+    "message": "أمثلة",
+    "description": "The label for category Examples in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Concepts": {
+    "message": "مفاهيم",
+    "description": "The label for category Concepts in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Tutorials": {
+    "message": "دروس",
+    "description": "The label for category Tutorials in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Grams SDK": {
+    "message": "جرامز SDK",
+    "description": "The label for category Grams SDK in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.dApps": {
+    "message": "dApps",
+    "description": "The label for category dApps in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Subjects": {
+    "message": "مواضيع",
+    "description": "The label for category Subjects in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Libraries": {
+    "message": "مكتبات",
+    "description": "The label for category Libraries in sidebar developSidebar"
+  },
+  "sidebar.developSidebar.category.Reference": {
+    "message": "مراجع",
+    "description": "The label for category Reference in sidebar developSidebar"
+  },
+  "sidebar.useSidebar.category.Concepts": {
+    "message": "مفاهيم",
+    "description": "The label for category Concepts in sidebar useSidebar"
+  }
+}
