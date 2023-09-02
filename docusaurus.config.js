@@ -60,7 +60,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { to: '/docs/use', label: 'Use Grams', position: 'left' },
+          { to: '/docs/start', label: 'Get Started', position: 'left' },
           { to: '/docs/develop', label: 'Develop' },
           { to: '/docs/playground', label: 'Playground', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },

@@ -83,8 +83,12 @@
     "message": "مراجع",
     "description": "The label for category Reference in sidebar developSidebar"
   },
-  "sidebar.useSidebar.category.Concepts": {
+  "sidebar.tutorialSidebar.category.💫 Start Using Grams": {
+    "message": "💫 بدء استخدام Grams",
+    "description": "The label for category 💫 Start Using Grams in sidebar tutorialSidebar"
+  },
+  "sidebar.startSidebar.category.Concepts": {
     "message": "مفاهيم",
-    "description": "The label for category Concepts in sidebar useSidebar"
+    "description": "The label for category Concepts in sidebar startSidebar"
   }
 }

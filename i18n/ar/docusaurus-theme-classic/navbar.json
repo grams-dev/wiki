@@ -26,5 +26,9 @@
   "item.label.Community": {
     "message": "مجتمع جرامز",
     "description": "Navbar item with label Community"
+  },
+  "item.label.Get Started": {
+    "message": "ابدأ",
+    "description": "Navbar item with label Get Started"
   }
 }

@@ -86,5 +86,13 @@
   "sidebar.useSidebar.category.Concepts": {
     "message": "Concepts",
     "description": "The label for category Concepts in sidebar useSidebar"
+  },
+  "sidebar.tutorialSidebar.category.💫 Start Using Grams": {
+    "message": "💫 Start Using Grams",
+    "description": "The label for category 💫 Start Using Grams in sidebar tutorialSidebar"
+  },
+  "sidebar.startSidebar.category.Concepts": {
+    "message": "Concepts",
+    "description": "The label for category Concepts in sidebar startSidebar"
   }
 }
