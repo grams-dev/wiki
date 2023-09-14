@@ -65,7 +65,7 @@ Traits in Grams are indicative of the characteristics or behaviors a subject or 
 To ensure clarity and modularity, behaviors can be defined in distinct Solidity files and then referenced within the Subject IDL.
 
 1. **Linking Solidity Files**: Utilize the `include` directive to connect external `.sol` files.
-2. **Mapping Behaviors**: Within the Grams IDL, reference the behaviors defined in the linked Solidity files.
+2. **Mapping Behaviors**: Within the Subject IDL, reference the behaviors defined in the linked Solidity files.
 
 For illustration:
 
