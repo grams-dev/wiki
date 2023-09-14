@@ -40,8 +40,8 @@ Whether you're a fan of visual interfaces or command-line magic, we've got you c
 
 - **🛠️ CLI**: Dive right into the command-line interface, which offers a robust set of tools for seasoned developers and those who adore terminal commands:
    ```bash
-   npm install -g @grams-dev/subjects
-   gsx init
+   npm install -g @grams-dev/cli
+   gex init
    ```
 
 Choose your preferred path or mix and match as you explore the world of Subjects!

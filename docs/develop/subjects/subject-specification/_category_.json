@@ -1,0 +1,8 @@
+{
+    "label": "Subject Specification",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "This is the specification of the interface definition language for Grams Subjects, and set of tools used to build, test, deploy, and publish subjects."
+    }
+}
