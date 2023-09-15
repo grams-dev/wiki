@@ -36,7 +36,7 @@ This delineation showcases the operational superiority and flexibility Subjects 
 
 Whether you're a fan of visual interfaces or command-line magic, we've got you covered:
 
-- **🖥️ Desktop App**: Experience Subjects with an intuitive graphical interface, making your journey seamless and engaging. Perfect for those new to decentralized programming or those who prefer a hands-on approach. [Download the app here](YOUR_DOWNLOAD_LINK_HERE).
+- **🖥️ Desktop App**: Experience Subjects with an intuitive graphical interface, making your journey seamless and engaging. Perfect for those new to decentralized programming or those who prefer a hands-on approach. [Download the app here](https://grams.dev/download/).
 
 - **🛠️ CLI**: Dive right into the command-line interface, which offers a robust set of tools for seasoned developers and those who adore terminal commands:
    ```bash
