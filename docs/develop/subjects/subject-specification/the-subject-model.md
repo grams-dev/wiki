@@ -31,22 +31,25 @@ These are foundational types for the Grams Subject IDL, aligning with standard E
 
 ```
 $version: "2.1.0"
+import "WalletBehaviors.sol";
 namespace subject.example
 
 subject Wallet {
+    version: "0.2.0"
+
     properties {
         owner: Address,
         balance: Uint256
     }
 
     behaviors {
-        deposit: Payable,
-        withdraw: Amount(Uint256)
+        deposit: WalletBehaviors.deposit,
+        withdraw: WalletBehaviors.withdraw
     }
 
-    events {
-        FundsDeposited: Amount(Uint256),
-        FundsWithdrawn: Amount(Uint256)
+    triggers {
+        FundsDeposited: Uint256,
+        FundsWithdrawn: Uint256
     }
 }
 ```
