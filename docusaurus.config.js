@@ -88,7 +88,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/grams',
+                href: 'https://discord.gg/fKcSzNqHkq',
               },
               {
                 label: 'Twitter',
