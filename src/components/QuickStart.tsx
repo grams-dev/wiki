@@ -17,7 +17,7 @@ const CardList = [
         Discover what is Grams and how to use it.
       </Translate>
     ),
-    link: '/docs/use/what-is-grams'
+    link: '/docs/start/what-is-grams'
   },
   {
     title: translate({

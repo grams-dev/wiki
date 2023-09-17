@@ -17,7 +17,7 @@ const CardList = [
     title: 'Grams Subjects',
     Svg: require('@site/static/img/libraries/subject.svg').default,
     description: 'Compose and build subjects, the first decentralized subject-oriented programming framework.',
-    link: '/docs/develop/libraries/subjects'
+    link: '/docs/develop/subjects'
   },
   {
     title: 'Grams dApps',

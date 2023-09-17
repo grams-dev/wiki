@@ -74,7 +74,6 @@ const config = {
           {
             title: 'Docs',
             items: [
-              { label: 'Use Grams', to: '/docs/use' },
               { label: 'Develop', to: '/docs/develop' },
               { label: 'Playground', to: '/docs/playground' },
             ],
@@ -115,6 +114,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['abnf']
       },
     }),
 };

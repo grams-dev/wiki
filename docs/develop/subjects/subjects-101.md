@@ -40,8 +40,8 @@ Whether you're a fan of visual interfaces or command-line magic, we've got you c
 
 - **🛠️ CLI**: Dive right into the command-line interface, which offers a robust set of tools for seasoned developers and those who adore terminal commands:
    ```bash
-   npm install -g @grams-dev/cli
-   gex init
+   npm install -g @grams-dev/subjects
+   gsx create myAwesomeSubject
    ```
 
 Choose your preferred path or mix and match as you explore the world of Subjects!
@@ -52,8 +52,8 @@ Dissect a subject:
 
 - **Behavior**: How the subject responds. 
 - **State**: Current data or status.
-- **Trigger**: What propels the subject to act.
-- **Subscription**: Staying in the loop with particular events.
+- **Triggers**: All the events a subject wishes to trigger.
+- **Subscriptions**: Staying in the loop with particular events.
 
 With these in your toolkit, you're geared to excel in subject-oriented programming.
 
