@@ -27,33 +27,6 @@ These are foundational types for the Grams Subject IDL, aligning with standard E
 | Uint256 | Denotes large integers, especially used for token balances.      |
 | Bytes32 | Fixed-size byte arrays, primarily used for cryptographic hashes. |
 
-## 📜 Example of a `.subject` File
-
-```
-$version: "2.1.0"
-import "WalletBehaviors.sol";
-namespace subject.example
-
-subject Wallet {
-    version: "0.2.0"
-
-    properties {
-        owner: Address,
-        balance: Uint256
-    }
-
-    behaviors {
-        deposit: WalletBehaviors.deposit,
-        withdraw: WalletBehaviors.withdraw
-    }
-
-    triggers {
-        FundsDeposited: Uint256,
-        FundsWithdrawn: Uint256
-    }
-}
-```
-
 ## 🔗 Traits
 
 Traits in Grams are indicative of the characteristics or behaviors a subject or a shape generally can adopt. The below are examples and how they are mapped to corresponding Solidity constructs.

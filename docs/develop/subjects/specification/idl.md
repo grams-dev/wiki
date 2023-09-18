@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # Subjects IDL
@@ -8,22 +8,22 @@ Subject models are defined using either the Subjects interface definition langua
 
 ## IDL Overview
 
-The Subjects IDL is made up of 3, ordered sections, each of which is optional:
+The Subjects IDL is made up of 3, ordered blocks, each of which is optional:
 
-1. Control: defines parser directives like which version of the IDL to use.
+1. Control: defines parser directives like the version assigned to the subjects in the model.
 2. Metadata: applies metadata to the entire model.
 3. Shapes: where shapes and traits are defined. A namespace MUST be defined before any shapes or traits can be defined. The `use` keyword can be defined after a namespace and before shapes or traits to refer to shapes in other namespaces using a shorter name.
 
 The following example defines a basic model file:
 
 ```ts
-// (1) Control section
+// (1) Control block
 $version: "2"
 
-// (2) Metadata section
+// (2) Metadata block
 metadata foo = "bar"
 
-// (3) Shape section
+// (3) Shape block
 namespace grams.example
 
 use some.other.namespace#MyString
@@ -94,6 +94,12 @@ The following control statements are currently supported:
 
 Implementations MUST ignore unknown control statements.
 
+The following example defines a basic control block:
+
+```
+$version: "2.1.0"
+```
+
 #### Version statement
 
 Every Subject model begins with a `$version` directive, indicating the version of the IDL specification it follows. The IDL adopts a versioning approach based on the `major.minor.patch` scheme.
@@ -110,7 +116,6 @@ The metadata block is utilized to apply untyped metadata across the entire Subje
 Here's an example of defining metadata in a Subject model:
 
 ```ts
-$version: "2.1.0"
 metadata greeting = "hello"
 metadata "stringList" = ["a", "b", "c"]
 ```
@@ -120,7 +125,6 @@ Metadata isn't confined within a namespace. Unquoted object property values are 
 For instance, in the Subjects IDL model:
 
 ```ts
-$version: "2.1.0"
 metadata exampleSyntacticShapeId = required
 ```
 

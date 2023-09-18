@@ -29,7 +29,7 @@ const CardList = [
         Create your first decentralized application (dApp) in 5 mins.
       </Translate>
     ),
-    link: '/docs/develop/get-started/create-dapp'
+    link: '/docs/develop/start/dapp'
   },
   {
     title: translate({

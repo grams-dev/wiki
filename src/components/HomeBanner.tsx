@@ -15,7 +15,7 @@ export default function HomeBanner() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/develop/get-started">
+            to="/docs/develop/start">
             <Translate>Start building 🚀</Translate>
           </Link>
         </div>

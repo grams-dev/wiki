@@ -23,7 +23,7 @@ const CardList = [
     title: 'Grams dApps',
     Svg: require('@site/static/img/libraries/window.svg').default,
     description: 'Decentralized applications powered by the Grams network for secure and feature-rich user experiences.',
-    link: '/docs/develop/libraries/dapps'
+    link: '/docs/develop/dapps'
   },
   {
     title: 'Grams Contracts',
@@ -31,12 +31,12 @@ const CardList = [
     description: 'Unlock the potential of smart contracts for decentralized application development on Grams.',
     link: '/docs/develop/libraries/contracts'
   },
-  {
+  /*{
     title: 'GNS',
     Svg: require('@site/static/img/libraries/gns.svg').default,
     description: 'Grams Naming Service, a decentralized system responsible for translating human-readable names into addresses within the Grams network.',
     link: '/docs/develop/libraries/gns'
-  },
+  },*/
 ];
 
 export default function Libraries() {

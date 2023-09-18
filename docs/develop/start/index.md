@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2.1
+sidebar_position: 2
 title: Getting Started
 ---
 
@@ -7,19 +7,19 @@ Are you ready to embark on an exciting journey into the world of Grams developme
 
 ## Environment Setup
 
-Before you dive into Grams development, it's important to set up your development environment. In the [Environment Setup](environment-setup.md) guide, you'll learn how to install the necessary software, configure your development environment, and ensure everything is ready for your Grams coding adventures.
+Before you dive into Grams development, it's important to set up your development environment. In the [Environment Setup](setup/) guide, you'll learn how to install the necessary software, configure your development environment, and ensure everything is ready for your Grams coding adventures.
 
 ## Interact with Grams
 
-Once your environment is set up, it's time to start interacting with Grams. In the [Interact with Grams](interact-with-grams.md) guide, you'll discover how to connect to the Grams network, create a wallet, send transactions, interact with smart contracts, and explore other powerful features of the Grams platform. Get ready to unleash the full potential of Grams and unlock a new world of decentralized applications!
+Once your environment is set up, it's time to start interacting with Grams. In the [Interact with Grams](interact/) guide, you'll discover how to connect to the Grams network, create a wallet, send transactions, interact with smart contracts, and explore other powerful features of the Grams platform. Get ready to unleash the full potential of Grams and unlock a new world of decentralized applications!
 
 ## Create a dApp
 
-Are you ready to build your own decentralized application (dApp) on Grams? In the [Create a dApp](create-dapp.md) guide, you'll learn the step-by-step process of creating a dApp from scratch. From designing the user interface to implementing smart contract interactions, this guide will equip you with the knowledge and tools to bring your dApp ideas to life on the Grams platform.
+Are you ready to build your own decentralized application (dApp) on Grams? In the [Create a dApp](dapp/) guide, you'll learn the step-by-step process of creating a dApp from scratch. From designing the user interface to implementing smart contract interactions, this guide will equip you with the knowledge and tools to bring your dApp ideas to life on the Grams platform.
 
 ## Create a Subject
 
-Subjects are an integral part of the Grams ecosystem, representing unique entities with specific roles and capabilities. In the [Create a Subject](create-subject.md) guide, you'll discover how to create and manage subjects on Grams. Learn how to define subject attributes, interact with subjects programmatically, and leverage their power to enhance your Grams applications.
+Subjects are an integral part of the Grams ecosystem, representing unique entities with specific roles and capabilities. In the [Create a Subject](subject/) guide, you'll discover how to create and manage subjects on Grams. Learn how to define subject attributes, interact with subjects programmatically, and leverage their power to enhance your Grams applications.
 
 ## Further Exploration
 

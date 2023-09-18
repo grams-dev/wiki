@@ -1,7 +1,8 @@
 ---
-title: Setup your environment
 sidebar_position: 1
 ---
+
+# Environment Setup
 
 To start developing on Grams, you need to set up your development environment. This guide will walk you through the necessary steps to ensure you have all the tools and dependencies in place.
 
@@ -28,7 +29,7 @@ Follow these steps to set up your development environment:
 3. Install the Grams CLI (Command Line Interface) by running the following command:
 
    ```shell
-   npm install -g grams-cli
+   npm install -g @grams-dev/cli
    ```
 
    This will install the Grams CLI globally on your system, allowing you to interact with the Grams network and perform various development tasks.
@@ -36,7 +37,7 @@ Follow these steps to set up your development environment:
 4. Verify that the Grams CLI is installed correctly by running the following command:
 
    ```shell
-   grams --version
+   gex --version
    ```
 
    You should see the version number of the Grams CLI displayed in the terminal.
@@ -49,4 +50,4 @@ Now that you have set up your development environment, you can proceed to the ne
 
 Happy coding!
 
-**Note:** If you encounter any issues during the environment setup process, please refer to the Grams community forums or reach out to our support team for assistance.
+> **Note:** If you encounter any issues during the environment setup process, please refer to the Grams community page (/community) to find ways to reach out for assistance.

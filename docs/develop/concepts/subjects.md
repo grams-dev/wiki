@@ -75,5 +75,5 @@ subject NonProfitOrganization {
 
 Now that you have a foundational understanding of Subjects, consider diving deeper:
 
-- **[Subjects 101](/docs/develop/subjects/subjects-101.md)**: A practical guide to getting started with Subjects.
-- **[Subject Specification](/docs/develop/subjects/subject-specification/the-subject-model.md)**: Dive into more intricate aspects of Subjects, including advanced patterns and best practices.
+- **[Subjects 101](/docs/develop/subjects/101.md)**: A practical guide to getting started with Subjects.
+- **[Subject Specification](/docs/develop/subjects/specification/model.md)**: Dive into more intricate aspects of Subjects, including advanced patterns and best practices.

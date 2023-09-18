@@ -12,7 +12,7 @@ Whether you are a beginner getting started with Grams development or an experien
 
 ## Getting Started
 
-If you're new to Grams development, start with the [Getting Started](/docs/develop/get-started) guide. It will walk you through the initial setup and introduce you to the basic concepts and tools needed to develop on Grams.
+If you're new to Grams development, start with the [Getting Started](/docs/develop/start) guide. It will walk you through the initial setup and introduce you to the basic concepts and tools needed to develop on Grams.
 
 ## Tutorials
 
