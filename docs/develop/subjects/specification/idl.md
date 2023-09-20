@@ -8,22 +8,18 @@ Subject models are defined using either the Subjects interface definition langua
 
 ## IDL Overview
 
-The Subjects IDL is made up of 3, ordered blocks, each of which is optional:
+The Subjects IDL is made up of 2, ordered blocks, each of which is optional:
 
-1. Control: defines parser directives like the version assigned to the subjects in the model.
-2. Metadata: applies metadata to the entire model.
-3. Shapes: where shapes and traits are defined. A namespace MUST be defined before any shapes or traits can be defined. The `use` keyword can be defined after a namespace and before shapes or traits to refer to shapes in other namespaces using a shorter name.
+1. Metadata: applies metadata to the entire model.
+2. Shapes: where shapes and traits are defined. A namespace MUST be defined before any shapes or traits can be defined. The `use` keyword can be defined after a namespace and before shapes or traits to refer to shapes in other namespaces using a shorter name.
 
 The following example defines a basic model file:
 
 ```ts
-// (1) Control block
-$version: "2"
-
-// (2) Metadata block
+// (1) Metadata block
 metadata foo = "bar"
 
-// (3) Shape block
+// (2) Shape block
 namespace grams.example
 
 use some.other.namespace#MyString
@@ -38,7 +34,6 @@ or in JSON:
 
 ```json
 {
-    "subjects": "2",
     "metadata": {
         "foo": "bar"
     },
@@ -82,33 +77,6 @@ string MyString
 structure myTrait {}
 ```
 
-### Control Block
-
-The control block of a model contains control statements that apply parser directives to a specific IDL file. Because control statements influence parsing, they MUST appear at the beginning of a file before any other statements and have no effect on the semantic model.
-
-The following control statements are currently supported:
-
-| Name                   | Type   | Description                                                                           |
-|------------------------|--------|---------------------------------------------------------------------------------------|
-| version                | string | Defines the version of the Subjects used in the model file.                           |
-
-Implementations MUST ignore unknown control statements.
-
-The following example defines a basic control block:
-
-```
-$version: "2.1.0"
-```
-
-#### Version statement
-
-Every Subject model begins with a `$version` directive, indicating the version of the IDL specification it follows. The IDL adopts a versioning approach based on the `major.minor.patch` scheme.
-
-```abnf
-version_string =
-    1*DIGIT [ "." 1*DIGIT [ "." 1*DIGIT ] ]
-```
-
 ### Metadata Block
 
 The metadata block is utilized to apply untyped metadata across the entire Subject model. In a `MetadataStatement`, a metadata key is defined, followed by `=`, and then the node value assigned to that key.
@@ -144,7 +112,7 @@ The Subjects IDL is defined by the following ABNF which uses case-sensitive stri
 
 ```abnf
 IDL = 
-    [ WS ] ControlBlock MetadataBlock ShapeBlock
+    [ WS ] MetadataBlock ShapeBlock
 ```
 
 ### Whitepace
@@ -180,16 +148,6 @@ DocumentationComment =
 
 LineComment =
     "//" [(%x09 / %x20-2E / %x30-10FFF) *NotNL] NL ; First character after "//" can't be "/"
-```
-
-### ControlBlock
-
-```abnf
-ControlBlock =
-    *(ControlStatement)
-
-ControlStatement =
-    "$" NodeObjectKey [SP] ":" [SP] NodeValue BR
 ```
 
 ### MetadataBlock

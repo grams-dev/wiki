@@ -1,79 +1,48 @@
 ---
+
 sidebar_position: 1
+
 ---
 
 # The Subject Model
 
-The **Grams Subject Model** is the architectural cornerstone of the Grams framework, seamlessly merging decentralized subject-oriented programming with the dynamic realm of Solidity.
+Dive deep into the heart of Grams: Subjects. These dynamic entities represent the very essence of decentralized subject-oriented programming in the Grams ecosystem, architecturally designed to interlace seamlessly with the diverse world of Solidity and beyond.
 
 ## 🧱 Structure of a Subject
 
-Each subject in Grams encapsulates specific functionality or behavior within the decentralized environment.
+At its core, a Subject in Grams is a modular unit, encapsulating specific behaviors, state, and logic. It's the cornerstone for creating interoperable building blocks in decentralized applications.
 
-| Component   | Description                                                |
-|-------------|------------------------------------------------------------|
-| Identifier  | A unique blend of name and version.                        |
-| State       | Attributes or state data intrinsic to the subject.         |
-| Behaviors   | Actions or methods directly tied to Solidity functions.    |
-| Events      | Blockchain-driven notifications the subject can broadcast. |
+| Component   | Description                                                                                       |
+|-------------|---------------------------------------------------------------------------------------------------|
+| Identifier  | A unique descriptor consisting of a name and version, ensuring easy referencing and versioning.   |
+| State       | The innate attributes or data tied to the subject, representing its current status.               |
+| Behaviors   | Actions or methods that map directly to functionalities, often linked to Solidity functions.     |
+| Triggers    | Events that the subject can initiate, akin to blockchain-driven notifications.                   |
+| Subscriptions | Allows the subject to stay updated or respond to specific events or triggers.                |
 
-## 🌐 Web3 Types
+## 🌐 Web3 Types in Grams
 
-These are foundational types for the Grams Subject IDL, aligning with standard Ethereum types.
+Grams brings forth foundational types that resonate with standard Ethereum types, ensuring smooth transition and compatibility.
 
 | Type    | Description                                                      |
 |---------|------------------------------------------------------------------|
-| Address | Represents Ethereum addresses.                                   |
-| Uint256 | Denotes large integers, especially used for token balances.      |
-| Bytes32 | Fixed-size byte arrays, primarily used for cryptographic hashes. |
+| Address | Denotes Ethereum addresses, facilitating transactions and identity.|
+| Uint256 | Represents large integers, commonly used for token balances and calculations.|
+| Bytes32 | Fixed-size byte arrays, often employed for cryptographic hashes and secure operations.|
 
 ## 🔗 Traits
 
-Traits in Grams are indicative of the characteristics or behaviors a subject or a shape generally can adopt. The below are examples and how they are mapped to corresponding Solidity constructs.
+Traits define the inherent characteristics or behaviors a subject or its components can exhibit. They offer cues on how the subject operates or interacts within the decentralized framework. Use a combination of existing traits or create your own!
 
-| Trait    | Description                                        | Solidity Equivalent |
-|----------|----------------------------------------------------|---------------------|
-| Payable  | Enables the subject to transact with Ether.        | `payable` modifier  |
-| View     | Signifies the function as read-only.               | `view` modifier     |
+| Trait    | Description                                        | Solidity Equivalent    |
+|----------|----------------------------------------------------|------------------------|
+| Payable  | Enables the subject to engage in Ether transactions.| `payable` modifier     |
+| View     | Designates the function as read-only, ensuring state consistency.| `view` modifier  |
 
-## 📁 Referencing Behaviors in Separate `.sol` Files
+## 📜 Protocol Agnostic Design
 
-To ensure clarity and modularity, behaviors can be defined in distinct Solidity files and then referenced within the Subject IDL.
+Crafted with a vision for the future, Subjects use an Interface Definition Language (IDL) or JSON AST. This design choice makes them not just adaptable to current technologies but also future-ready. It ensures compatibility across various protocols and allows for easy generation of client-side packages and contracts in Solidity, with a roadmap laid out for WebAssembly.
 
-1. **Linking Solidity Files**: Utilize the `include` directive to connect external `.sol` files.
-2. **Mapping Behaviors**: Within the Subject IDL, reference the behaviors defined in the linked Solidity files.
+## 🚀 Takeaways
 
-For illustration:
-
-```plaintext
-include "WalletBehaviors.sol";
-
-subject Wallet@1.1 {
-    properties {
-        owner: Address;
-        balance: Uint256;
-    }
-
-    behaviors {
-        deposit: WalletBehaviors.deposit;   // Referencing from the linked .sol file
-        withdraw: WalletBehaviors.withdraw; // Similar approach
-    }
-
-    events {
-        FundsDeposited: Amount(Uint256);
-        FundsWithdrawn: Amount(Uint256);
-    }
-}
-```
-
-Associated `WalletBehaviors.sol`:
-
-```solidity
-function deposit() public payable { /*...*/ }
-
-function withdraw(uint256 amount) public { /*...*/ }
-```
-
-## 🎉 Conclusion
-
-The Grams Subject Model offers a structured and intuitive interface for designing, referencing, and harmonizing decentralized components within the web3 domain. Its tight integration with Solidity ensures that developers can harness the full potential of Ethereum's smart contract capabilities, all while maintaining a clear and organized design paradigm.
+Grams Subjects herald a new age in decentralized application design. They provide a robust, scalable, and intuitive framework that dovetails perfectly with Solidity, unlocking a realm of possibilities in Ethereum's smart contract world. With Subjects, developers are equipped with the tools to craft, scale, and innovate, driving the next generation of decentralized marvels.
