@@ -10,7 +10,7 @@ Dive deep into the heart of Grams: Subjects. These dynamic entities represent th
 
 ## 🧱 Structure of a Subject
 
-At its core, a Subject in Grams is a modular unit, encapsulating specific behaviors, state, and logic. It's the cornerstone for creating interoperable building blocks in decentralized applications.
+At its core, a Subject is a shape, encapsulating specific behaviors, state, and logic. It's the cornerstone for creating interoperable building blocks in decentralized applications.
 
 | Component   | Description                                                                                       |
 |-------------|---------------------------------------------------------------------------------------------------|

@@ -8,10 +8,11 @@ Subject models are defined using either the Subjects interface definition langua
 
 ## IDL Overview
 
-The Subjects IDL is made up of 2, ordered blocks, each of which is optional:
+The Subjects IDL is made up of 3, ordered blocks, each of which is optional:
 
 1. Metadata: applies metadata to the entire model.
-2. Shapes: where shapes and traits are defined. A namespace MUST be defined before any shapes or traits can be defined. The `use` keyword can be defined after a namespace and before shapes or traits to refer to shapes in other namespaces using a shorter name.
+2. Uses: The use section of the IDL is used to import shapes into the current namespace so that they can be referred to using a relative shape ID.
+3. Shapes: where shapes and traits are defined. A namespace MUST be defined before any shapes or traits can be defined. The `use` keyword can be defined after a namespace and before shapes or traits to refer to shapes in other namespaces using a shorter name.
 
 The following example defines a basic model file:
 
@@ -19,14 +20,15 @@ The following example defines a basic model file:
 // (1) Metadata block
 metadata foo = "bar"
 
-// (2) Shape block
-namespace grams.example
+// (2) Use block
 
-use some.other.namespace#MyString
+use some.other.namespace#OtherString
+
+// (3) Shape block
 
 structure MyStructure {
     @required
-    foo: MyString
+    referencedString: OtherString
 }
 ```
 

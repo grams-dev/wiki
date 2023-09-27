@@ -18,12 +18,19 @@ Subjects are dynamic entities encapsulating behavior, state, and logic in a neat
   
 - **Reusability**: Designed for reuse, Subjects can be employed across various applications without the need for rework.
   
-- **Interoperability**: Subjects ensure smooth integration with other components, paving the way for collaborative development and deployment.
+- **Interoperability**: Subjects can be built for various languages and frameworks, paving the way for collaborative development and deployment.
   
 - **Innovative Design**: Embracing the latest in web3 design paradigms, Subjects provide a robust framework for next-generation decentralized applications.
 
+## Protocol Agnostic Design
+
+Designed using an Interface Definition Language (IDL) or a JSON Abstract Syntax Tree (AST), Subjects are inherently protocol agnostic. This unique approach ensures:
+
+- **Future-Proofing**: Their design is resilient to evolving technological landscapes.
+- **Broad Compatibility**: They facilitate the generation of client-side packages and contracts. While Solidity is currently supported, there's a roadmap for incorporating WebAssembly in order to secure immediate support for IOTA's generalized smart contract platform.
+
 ## Dive Deeper
 
-Ready to embark on your journey with Subjects? Explore the links below to gain a comprehensive understanding and start your innovative venture.
+Ready to embark on your journey with Subjects? Explore the below topics to gain a comprehensive understanding and start your innovative venture.
 
 <DocCardList />
